@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#main_heading{
+    color:white;
+    background-color: black;
+    height:6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    height:20vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image{
+    width:100px;
+    height:100px;
+    border-radius: 40%;
+}
+.btn{
+    width:100px;
+    height:100px;
+    border-radius: 40%;
+    border: none;
+}
+.numdiv{
+    display: flex;
+    margin: auto;
+    column-gap: 5rem;
+    width:5vw;
+    height: 7vh;
+}
+.yc{
+    display: flex;
+    margin: auto;
+    column-gap: 5rem;
+    width:5vw;
+    height: 6vh;
+}
+#box1,#box2{
+    width:8vw;
+    height:7vh;
+}
+.score{
+    height:15vh;
+}
+.resultBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:17vh;
+}
+#result{
+width:40vw;
+height:7vh;
+border:1px solid black;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#play{
+    width:18vw;
+    height:5vh;
+    background-color: blue;
+    color: azure;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+}
